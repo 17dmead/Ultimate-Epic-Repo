@@ -1,0 +1,18 @@
+body {
+  background-color: black;
+}
+h1 {
+  color: blue;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+}
+p {
+  color: red;
+  padding:20px;
+  font-family: "Times New Roman", Times, serif;
+
+}
+ul {
+  color: red;
+  font-family: "Times New Roman", Times, serif;
+}
