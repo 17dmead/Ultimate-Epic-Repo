@@ -1,0 +1,101 @@
+*{
+  margin:0 auto;
+  padding: 0;
+  text-decoration: none;
+}
+
+nav, nav a {
+ color: white;
+ background-color: green;
+}
+
+nav {
+ align-items: center;
+}
+
+li {
+ list-style: none;
+ padding: 5px;
+}
+
+#container{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+#container > div {
+  justify-content:center;
+  align-items:center;
+  font-size: 22px;
+}
+
+
+body{
+  margin: 0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 17px;
+  color: brown;
+  line-height: 1.6;
+}
+
+#Golfer{
+  background-image:url(../img/jacks.jpg);
+  background-size:cover;
+  background-position: center;
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+#Golfer h1{
+  font-size: 65px;
+  line-height: 1.2;
+  color: white;
+}
+
+#Golfer .button{
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+  background:green;
+  border: green 1px solid;
+  padding:10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+#Golfer .button:hover{
+  background: black;
+  border: black;
+  color:#fff;
+}
+
+#section-a {
+  padding: 20px;
+  margin: 69px;
+  background: white;
+  color: black;
+  text-align:left;
+  border: black 2px solid;
+}
+
+img {
+  padding: 20px;
+  margin: 0 auto;
+  position: center;
+  display:block;
+}
+
+footer{
+  padding: 20px;
+  margin: 69px;
+  background: white;
+  color:black;
+  text-align: left;
+  border: black 2px solid;
+}
